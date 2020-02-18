@@ -202,8 +202,12 @@ i {
   transform: translate(-50%, 170%);
 }
 
+.rules li {
+  list-style: none;
+}
+
 .rules h4 {
-  padding-bottom: 5px;
+  padding-bottom: 8px;
   font-family: Lato;
   color: black;
   font-size: 16px;
