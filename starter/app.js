@@ -19,6 +19,8 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
     document.getElementById("dice-1").src = "dice-" + dice1 + ".png";
     document.getElementById("dice-2").src = "dice-" + dice2 + ".png";
 
+    document.querySelector(".rules").style.display = "none";
+
     if (dice1 === 6 && dice2 === 6) {
       scores[activePlayer] = 0;
       document.querySelector("#score-" + activePlayer).textContent = "0";
@@ -92,6 +94,7 @@ function init() {
   document.querySelector(".player-0-panel").classList.remove("winner");
   document.querySelector(".player-1-panel").classList.remove("winner");
   document.querySelector(".player-0-panel").classList.remove("active");
+  document.querySelector(".player-1-panel").classList.remove("active");
   document.querySelector(".player-0-panel").classList.add("active");
 }
 
