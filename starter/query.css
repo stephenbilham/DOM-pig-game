@@ -1,0 +1,149 @@
+/* small tablet to big tablet 768-1023 */
+
+@media only screen and (max-width: 1023px) {
+  .rules h4 {
+    padding-bottom: 6px;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .wrapper {
+    width: 80%;
+  }
+
+  .rules {
+    width: 80%;
+    transform: translate(-50%, 325px);
+  }
+
+  .rules-title {
+    font-size: 30px;
+    padding-bottom: 8px;
+  }
+
+  .active .player-name::after {
+    font-size: 37px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+  }
+
+  .player-current-box {
+    width: 80px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .player-current-label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #222;
+  }
+
+  .player-current-score {
+    font-size: 30px;
+  }
+
+  .player-name {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .player-score {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 130px;
+  }
+
+  #score-1 {
+    padding-top: 18px;
+  }
+  .ion-ios-loop:before {
+    size: 200px;
+  }
+  .ion-ios-download-outline:before {
+    size: 10px;
+  }
+}
+
+/* small phones to larger tablets 481-787px */
+
+@media only screen and (max-width: 787px) {
+  .rules h4 {
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .player-current-box {
+    width: 80px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .btn-roll {
+    font-size: 15px;
+
+    top: 425px;
+  }
+
+  .btn-hold {
+    font-size: 15px;
+    top: 460px;
+  }
+
+  .player-score {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 150px;
+  }
+  .player-name {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .active .player-name::after {
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+  }
+
+  .rules {
+    transform: translate(-50%, 325px);
+  }
+}
+
+/* small phones 0-480px */
+
+@media only screen and (max-width: 500px) {
+  .player-current-box {
+    width: 60px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .btn-roll {
+    font-size: 10px;
+
+    top: 425px;
+  }
+
+  .btn-hold {
+    font-size: 10px;
+    top: 460px;
+  }
+
+  .player-score {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 150px;
+  }
+}
